@@ -4,6 +4,7 @@
 sudo apt-get update
 sudo apt-get install apache2 -y
 sudo systemctl enable apache2
+mkdir test
 
 # Read the log file
 LOG_FILE="/var/log/apache2/access.log"
